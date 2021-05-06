@@ -397,7 +397,7 @@ const bundle = {
 
     return {
       url: `${url}/v0/get?arg=${cid}&archive=true&compress=true`,
-      filename: `shared-via-ipfs_${cid.string.slice(-7)}.tar.gz`
+      filename: `ipfscloud_${cid.string.slice(-7)}.tar.gz`
     }
   },
 
