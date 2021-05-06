@@ -21,14 +21,16 @@ const Footer = ({ t }) => {
   return (
     <div className='flex-ns items-center pt5 pb3 ph4 f7 white '>
       <div>
--
+        <a href='https://protocol.ai' target='_blank' rel='noopener noreferrer'>
+          <img src={plLogoText} height='50px' alt='Protocol Labs' />
+        </a>
       </div>
       <div className='mr2 pb1 dn dib-ns'>
           |
       </div>
       <div className='pb1'>
         <Trans i18nKey='footer'>
-          Licensed <a className={anchorClass} href='https://creativecommons.org/licenses/by/3.0/' target='_blank' rel='noopener noreferrer'>CC-BY 3.0</a>
+          Licensed <a className={anchorClass} href='https://creativecommons.org/licenses/by/3.0/' target='_blank' rel='noopener noreferrer'>CC-BY 3.0</a> except as <a className={anchorClass} href='https://protocol.ai/legal/' target='_blank' rel='noopener noreferrer'>noted</a>
         </Trans>
       </div>
       <div className='flex items-center pv2'>
