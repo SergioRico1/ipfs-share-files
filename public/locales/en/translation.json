@@ -1,10 +1,10 @@
 {
   "pageTitle": {
-    "ipfs": "IPFS Share",
+    "ipfs": "IPFS Cloud",
     "add": "Share Files",
     "download": "Download Files"
   },
-  "header": "Share",
+  "header": "Cloud",
   "footer": "Licensed <1>CC-BY 3.0</1> except as <3>noted</3>",
   "info": {
     "add": {
