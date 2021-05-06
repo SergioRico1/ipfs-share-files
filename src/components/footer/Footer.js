@@ -36,7 +36,7 @@ const Footer = ({ t }) => {
           |
         </div>
         <div className="mh1">
--
+Select Language: 
         </div>
         <Dropdown className="ml1" options={localesList} Icon={LanguagePicker} onChange={onLocaleChange} selectedOption={selectedLanguage}/>
       </div>
