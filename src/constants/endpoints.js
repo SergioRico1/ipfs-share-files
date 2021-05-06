@@ -1,7 +1,7 @@
 const endpoints = {
   gateway: 'https://dweb.link/ipfs',
-  api: 'https://ipfs.io/api',
-  share: 'https://share.ipfs.io/#',
+  api: 'https://ipfs.infura.io:5001/api/v0',
+  share: 'https://ipfscloud.netlify.app/#',
   apiMultiAddr: '/dns4/ipfs.io/tcp/443/https'
 }
 
